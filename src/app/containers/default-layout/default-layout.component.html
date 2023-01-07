@@ -6,13 +6,15 @@
   visible
 >
   <c-sidebar-brand
-    [brandFull]="{
+    [brandFull]=
+    "{
       src: 'assets/img/brand/coreui-angular.svg',
       width: 200,
       height: 46,
       alt: 'CoreUI Logo'
     }"
-    [brandNarrow]="{
+    [brandNarrow]=
+    "{
       src: 'assets/img/brand/coreui-signet-white.svg',
       width: 46,
       height: 46,
@@ -29,11 +31,11 @@
   >
   </c-sidebar-nav>
     </perfect-scrollbar>
-  <c-sidebar-toggler
+  <!-- <c-sidebar-toggler
     *ngIf="!sidebar.narrow"
     toggle="unfoldable"
     cSidebarToggle="sidebar"
-  ></c-sidebar-toggler>
+  ></c-sidebar-toggler> -->
 </c-sidebar>
 
 <!--main-->
