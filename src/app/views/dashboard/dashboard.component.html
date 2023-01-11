@@ -445,3 +445,34 @@
     </c-card>
   </c-col>
 </c-row> -->
+
+<c-card >
+  <c-card-body>
+    <c-row>
+      <c-col cm="7">
+        <form cForm>
+            <label cLabel >Email address</label>
+            <input cFormControl
+                   id="exampleFormControlInput1"
+                   placeholder="Type Member ID"
+                   type="text"
+            />
+        </form>
+      </c-col>
+      <c-col sm="5">
+        <div class="mt-4 pt-2">
+          <button color="primary" cButton class="me-1" variant="outline"> 
+             Search  <svg [cIcon]="icons.cilSearch"  title="List Icon"></svg>
+           </button>
+        </div>
+     
+      </c-col>
+    </c-row>
+  </c-card-body>
+ 
+</c-card>
+<c-card class="mt-2">
+  <c-card-body >
+    <app-client-view></app-client-view>
+  </c-card-body>
+</c-card>
