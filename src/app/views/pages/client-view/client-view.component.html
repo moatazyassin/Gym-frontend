@@ -1,4 +1,8 @@
 <c-row>
+    <c-col sm="8"></c-col>
+    <c-col sm="4" style="text-align: end;" ><button cButton  variant="outline"  color="success">Save changes</button></c-col>
+</c-row>
+<c-row>
     <c-col sm="4">
         <form cForm>
             <label cLabel>Name</label>
@@ -173,4 +177,39 @@
  <c-row>
     <div class="divider"></div>
  </c-row>
- 
+ <c-row>
+    <c-row class="my-2">
+        <c-col sm="12" class="text-center">
+           <h5>Client subscription</h5> 
+        </c-col>
+    </c-row>
+    <table [hover]="true" [striped]="true" cTable>
+        <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Class</th>
+          <th scope="col">Heading</th>
+          <th scope="col">Heading</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <th scope="row">1</th>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <th scope="row">3</th>
+          <td colSpan="2">Larry the Bird</td>
+          <td>@twitter</td>
+        </tr>
+        </tbody>
+      </table>
+ </c-row>
